@@ -12,4 +12,12 @@ function getJoao(){
     return joao;
 }
 
-export { getJoao, getMaria }
+function setJoao(novoValor){
+    joao = novoValor;
+}
+
+function setMaria(novoValor){
+    maria = novoValor;
+}
+
+export { getJoao, getMaria, setJoao, setMaria }
